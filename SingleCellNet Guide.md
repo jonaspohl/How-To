@@ -1,5 +1,7 @@
 ## Installation
 
+Run from `R`:
+
 ```
 install.packages('png')
 install.packages("devtools")
@@ -10,7 +12,7 @@ devtools::install_github("pcahan1/singleCellNet")
 
 In the Web Browser go to: https://aquarius.mdc-berlin.net/rstudio-sys/
 
-In R run:
+Run from `R`:
 
 ```
 library(singleCellNet)
