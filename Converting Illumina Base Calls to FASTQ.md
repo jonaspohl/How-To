@@ -1,7 +1,3 @@
-Overview:
-
-https://emea.support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq_letterbooklet_15038058brpmi.pdf
-
 ## Installation
  
 1.  On Windows machine install Illumina Experiment Manager:  
@@ -23,3 +19,9 @@ https://emea.support.illumina.com/content/dam/illumina-support/documents/documen
 
 -   `-p 12` indicates 12 threads being used for the conversion process. If this parameter is omitted, the conversion will use all the available CPU cores.
 -   The conversion process may run long. `nohup` ensures the command continues running even when the user session is finished (e.g. the user has logged out).
+
+## Resources
+
+https://emea.support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq_letterbooklet_15038058brpmi.pdf
+
+[https://bioinformatics.cvr.ac.uk/how-to-demultiplex-illumina-data-and-generate-fastq-files-using-bcl2fastq/](https://bioinformatics.cvr.ac.uk/how-to-demultiplex-illumina-data-and-generate-fastq-files-using-bcl2fastq/)
