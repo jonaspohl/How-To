@@ -2,7 +2,7 @@
 
   
 
-1. Install conda
+1. Install conda:
 [Conda Installation Guide](https://github.com/MDC-Berlin-Kaminski-team/How-To/blob/main/Conda%20Installation.md)
   
 
