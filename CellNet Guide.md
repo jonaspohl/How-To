@@ -3,7 +3,7 @@
   
 
 1. Install conda
-
+[Conda Installation Guide](https://github.com/MDC-Berlin-Kaminski-team/How-To/blob/main/Conda%20Installation.md)
   
 
 2. Install the following packages under conda:
