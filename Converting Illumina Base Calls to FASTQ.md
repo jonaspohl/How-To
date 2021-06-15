@@ -2,8 +2,10 @@
  
 1.  On Windows machine install Illumina Experiment Manager:  
     [https://support.illumina.com/sequencing/sequencing_software/experiment_manager/downloads.html](https://support.illumina.com/sequencing/sequencing_software/experiment_manager/downloads.html)
-2.  On Linux / Mac: install bcl2fastq:  
-    conda install -c dranew bcl2fastq
+2.  On Linux / Mac:
+    2.1 Install conda [Conda Installation Guide](https://github.com/MDC-Berlin-Kaminski-team/How-To/blob/main/Conda%20Installation.md)
+    2.2 Install bcl2fastq:  
+        `conda install -c dranew bcl2fastq`
 
 ## Conversion
 
