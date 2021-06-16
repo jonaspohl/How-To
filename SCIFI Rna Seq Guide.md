@@ -69,11 +69,11 @@ java \
 -Djava.io.tmpdir=./tmp \
 -jar picard-2.19.2-CeMM-all.jar \
 IlluminaSamDemux \
-INPUT=undemultiplexed.bam **\**
+INPUT=undemultiplexed.bam \
 OUTPUT_DIR=picard-output \
 OUTPUT_PREFIX=out \
-LIBRARY_PARAMS=picard-annotations.tsv **\**
-METRICS_FILE=output.metrics **\**
+LIBRARY_PARAMS=picard-annotations.tsv \
+METRICS_FILE=output.metrics \
 TMP_DIR=./tmp \
 COMPRESSION_LEVEL=9 \
 CREATE_MD5_FILE=true \
