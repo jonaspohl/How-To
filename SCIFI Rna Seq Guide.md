@@ -39,45 +39,25 @@ In our specific case we run:
   
 ```
 java \
-
 -Xmx20G \
-
 -jar picard-2.19.2-CeMM-all.jar \
-
 IlluminaBasecallsToMultiplexSam \
-
 RUN_DIR=illumina \
-
 LANE=001 \
-
 OUTPUT=undemultiplexed.bam \
-
 SEQUENCING_CENTER=BSF \
-
 NUM_PROCESSORS=2 \
-
 APPLY_EAMSS_FILTER=false \
-
 INCLUDE_NON_PF_READS=false \
-
 TMP_DIR=tmp \
-
 CREATE_MD5_FILE=false \
-
 FORCE_GC=false \
-
 MAX_READS_IN_RAM_PER_TILE=9000000 \
-
 MINIMUM_QUALITY=2 \
-
 VERBOSITY=INFO \
-
 QUIET=false \
-
 VALIDATION_STRINGENCY=STRICT \
-
 CREATE_INDEX=false \
-
 GA4GH_CLIENT_SECRETS=client_secrets.json
 ```
   
@@ -85,69 +65,37 @@ GA4GH_CLIENT_SECRETS=client_secrets.json
   
 ```
 java \
-
 -Xmx20G \
-
 -Djava.io.tmpdir=./tmp \
-
 -jar picard-2.19.2-CeMM-all.jar \
-
 IlluminaSamDemux \
-
 INPUT=undemultiplexed.bam **\**
-
 OUTPUT_DIR=picard-output \
-
 OUTPUT_PREFIX=out \
-
 LIBRARY_PARAMS=picard-annotations.tsv **\**
-
 METRICS_FILE=output.metrics **\**
-
 TMP_DIR=./tmp \
-
 COMPRESSION_LEVEL=9 \
-
 CREATE_MD5_FILE=true \
-
 OUTPUT_FORMAT=bam \
-
 BARCODE_TAG_NAME=BC \
-
 BARCODE_QUALITY_TAG_NAME=QT \
-
 MAX_MISMATCHES=1 \
-
 MIN_MISMATCH_DELTA=1 \
-
 MAX_NO_CALLS=2 \
-
 MINIMUM_BASE_QUALITY=0 \
-
 VERBOSITY=INFO \
-
 QUIET=false \
-
 VALIDATION_STRINGENCY=STRICT \
-
 MAX_RECORDS_IN_RAM=500000 \
-
 CREATE_INDEX=false \
-
 GA4GH_CLIENT_SECRETS=client_secrets.json \
-
 USE_JDK_DEFLATER=false \
-
 USE_JDK_INFLATER=false \
-
 DEFLATER_THREADS=4 \
-
 MATCHING_THREADS=4 \
-
 READ_STRUCTURE=8M13B8B16M79T \
-
 TAG_PER_MOLECULAR_INDEX=RX \
-
 TAG_PER_MOLECULAR_INDEX=r2
 ```
   
